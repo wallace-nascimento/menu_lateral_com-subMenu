@@ -23,7 +23,7 @@ https://wallace-nascimento.github.io/menu_lateral_com-subMenu/
 
 
 
- ## Desenvolvimento 
-<P> Foi desenvolvido com tecnicas de responsividade, com isso agiliza o desenvolvimento da aplicação, sem a necessidade de aplicar metodos de responsividade.</p>
+ ## Desenvolvimento:
+-Foi desenvolvido com técnicas de responsividade, com isso agiliza o desenvolvimento da aplicação, sem a necessidade de aplicar métodos de responsividade.<br />
+-Utilizo a biblioteca jQuery para fazer o clique do menu, deixando dinâmico.
 
-<p>Utilizado a biblioteca jQuery para fazer o clique do menu, deixando dinamico.</p>
