@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu com Sub-menu</title>
+
+    <!-- ÍCONES -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+      <!-- JQUERY -->
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+      <!-- ESTILO CSS -->
+      <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+
+    <div class="btnAbre"> <span class="material-icons">menu_open</span> </div>
+
+    <nav class="menuLateral">
+        <div class="titulo">Titulo <span class="material-icons" id="fecha">close</span></div>
+           
+        <ul>
+            <li><a href="#">Norte</a></li>
+            <li><a href="#" class="nordeste">Nordeste <img src="icones/arrow.png" alt="" class="seta1"></a></li>
+                <ul class="itensNordeste">
+                    <li><a href="#">Pernambuco</a></li>
+                    <li><a href="#">Maranhão</a></li>
+                    <li><a href="#">Sergipe</a></li>
+                    <li><a href="#">Bahia</a></li>
+                </ul>
+            <li><a href="#">Centro-Oeste</a></li>
+            <li><a href="#" class="sudeste">Sudeste <img src="icones/arrow.png" alt="" class="seta2"></a></li>
+                <ul class="itensSudeste">
+                    <li><a href="#">Minas Gerais</a></li>
+                    <li><a href="#">São Paulo</a></li>
+                    <li><a href="#">Rio de Janeiro</a></li>
+                    <li><a href="#">Espírito Santo</a></li>
+                </ul>
+            <li><a href="#">Sul</a></li>
+        </ul>
+    </nav>
+    <script src="./js/script.js"></script>
+</body>
+</html>

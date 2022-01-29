@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.menuLateral{
+    background: rgba(146, 145, 145, 0.993);
+    position: absolute;
+    width: 260px;
+    height: 100vh;
+    left: -260px;
+    transition: left 0.5s;
+}
+
+.menuLateral .titulo{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 45px;
+    border-bottom: 2px solid red;
+}
+
+.menuLateral ul{
+    list-style:none;
+}
+
+.menuLateral ul li{
+    line-height: 40px;
+    border-bottom: 1px solid white;
+}
+
+.menuLateral ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding-left: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.menuLateral ul li a:hover{
+    background: #a74444;
+    transition: 0.5s;
+}
+
+.menuLateral ul ul li a{
+    font-size: 1rem;
+    font-weight: 300;
+    padding-left: 60px;
+    background-color: #3d3d3d;
+}
+
+.menuLateral ul ul{
+    display: none;
+}
+
+.menuLateral ul .itensNordeste.mostra{
+    display: block;
+}
+
+.menuLateral ul .itensSudeste.mostra{
+    display: block;
+}
+
+.btnAbre{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.btnAbre span {
+    position: absolute;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+.menuLateral.mostra{
+    left: 0;
+}
+
+#fecha{
+    position: relative;
+    left: 20px;
+    top: 3px;
+    border: 2px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#fecha:hover{
+    border: 2px solid red;
+}
+
+.menuLateral ul li a img{
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    transition: 0.4s;
+}
+
+.menuLateral ul li a img.gira{
+    transform: rotate(90deg);
+}
